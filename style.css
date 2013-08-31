@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*--- init ---*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0; padding:0; border:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline;
+}
+body{
+	line-height:1.5; background:#fff; margin:1.5em 0;
+}
+table{
+	border-collapse:separate; border-spacing:0;
+}
+caption, th, td{
+	text-align:left; font-weight:400;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:"";
+}
+blockquote, q{
+	quotes:"" "";
+}
+a img{
+	border:none;
+}
+
+
+/*--- style ---*/
+html, body{
+	background: #fff;
+	height: 100%;
+	color: #444;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link {
+	color: #444;
+	text-decoration: none;
+	-webkit-transition: 0.2s ease-in-out;
+	   -moz-transition: 0.2s ease-in-out;
+		 -o-transition: 0.2s ease-in-out;
+			transition: 0.2s ease-in-out;
+}
+a:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; /* IE */
+	filter: alpha(opacity=40); /* IE */
+	-moz-opacity:0.4; /* Firefox(old) */
+	-khtml-opacity: 0.4; /* Safari(old) */
+	opacity: 0.4;
+	text-decoration: none;
+}
+a:visited { color: #444; }
+
+.bold { font-weight:bold; }
+
+div#wrapper {
+	min-height: 100%;
+	width: 100%;
+}
+
+header{
+	text-align: center;
+}
+	#header-bar {
+		background: #444;
+		height: 5px;
+		margin-bottom: 20px;
+	}
+	#logo {
+		font-size: 2em;
+	}
+
+#content {
+	margin: 50px;
+}
+	article {
+		margin-top: 20px;
+		padding: 20px;
+		border: solid 1px #888;
+	}
+
+footer {
+	font-size: 0.8em;
+	text-align: center;
+}
