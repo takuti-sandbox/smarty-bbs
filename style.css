@@ -80,6 +80,10 @@ header{
 		padding: 20px;
 		border: solid 1px #888;
 	}
+	#page-nav {
+		margin-top: 20px;
+		text-align: center;
+	}
 
 footer {
 	font-size: 0.8em;

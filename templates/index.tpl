@@ -20,6 +20,15 @@
 				<p>{$post.message|nl2br}</p>
 			</article>
 			{/foreach}
+			<div id="page-nav">
+				{if $page != 1}
+					<a href="index.php?page={$page-1}">&lt; もどる</a>
+				{/if}
+				　
+				{if $page != $max_page}
+					<a href="index.php?page={$page+1}">つぎ &gt;</a>
+				{/if}
+			</div>
 			{include 'footer.tpl'}
 		</div> <!-- #wrapper -->
 	</body>
